@@ -17,12 +17,13 @@ This endpoint should return a single to-do item with the given ID. If no to-do i
 POST /todos
 This endpoint should create a new to-do item in the database. It should accept a JSON request body with the following format:
 
-Copy code
+
 {
 "title": "string",
 "description": "string",
 "completed": boolean
 }
+
 The ID, Created At, and Completed fields should be generated automatically by the server.
 
 PUT /todos/{id}
